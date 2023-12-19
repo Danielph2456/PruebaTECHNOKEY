@@ -30,7 +30,7 @@ function mostrarAlertaExitosa() {
         showConfirmButton: false,
         timer: 1500
     });
-    window.location.href = './aerolinea/dashboard.php';
+    window.location.href = './aerolinea/vuelos/vuelos.php';
 }
 
 

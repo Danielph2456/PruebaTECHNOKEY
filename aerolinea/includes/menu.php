@@ -20,7 +20,7 @@ if (isset($_SESSION['id'])) {
 
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../dashboard.php">Inicio</a>
+            <a class="navbar-brand">TECHNOKEY Airlines</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,9 +28,6 @@ if (isset($_SESSION['id'])) {
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost/pruebas/pruebaTECHNOKEY/aerolinea/vuelos/vuelos.php">Vuelos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../usuarios/usuarios.php">Usuarios</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
